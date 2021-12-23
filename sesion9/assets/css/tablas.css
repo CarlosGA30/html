@@ -1,0 +1,10 @@
+table,tr,th,td{
+    background-color: grey;
+    border: 5px solid steelblue;
+    margin: 10px;
+}
+table{
+    background-color: greenyellow;
+    border: none;
+    padding: 10px;
+}

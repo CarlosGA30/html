@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!--
+        colspan se extiende por columnas
+        rowspan  se extiende por filas
+    -->
+    <table>
+        <thead>
+            <!--
+                thead-cabecera de tabla
+                tr-table row
+                th-teable header
+            -->
+            <tr>
+                <th>cabecera</th>
+                <th colspan="2">cabecera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--cuerpo de tabla-->
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>hola</td>
+                <td>adios</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--pie de tabla-->
+            <tr>
+                <td colspan="2">pie de tabla</td>
+                <td>pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
